@@ -10,17 +10,7 @@ Main topic of this python script is to train neural network to predict level of 
 For that purpose I have prepared time series from initial data, and created small neural network consisting of input, output and three LSTM layers between them. After training, results were quiet satysfying. As we can observe, neural network trained on training data was effective in predicting level of PM2.5 in air.
 
 LSTM neural network
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
-│ lstm_6 (LSTM)                   │ (None, 24, 128)        │        71,168 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ lstm_7 (LSTM)                   │ (None, 24, 32)         │        20,608 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ lstm_8 (LSTM)                   │ (None, 8)              │         1,312 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_2 (Dense)                 │ (None, 1)              │             9 │
-└─────────────────────────────────┴────────────────────────┴───────────────┘
+<img width="727" height="269" alt="{92BB67B9-306D-499E-90CF-3E4E288AB91E}" src="https://github.com/user-attachments/assets/067eb67f-27a7-4179-84d4-70146c5aa706" />
 
 Results of predicting
 <img width="1614" height="634" alt="image" src="https://github.com/user-attachments/assets/0b845d36-3352-465a-8cb1-f7145517b776" />
