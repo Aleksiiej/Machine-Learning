@@ -17,3 +17,19 @@ Results of predicting
 <img width="1614" height="634" alt="image" src="https://github.com/user-attachments/assets/0b845d36-3352-465a-8cb1-f7145517b776" />
 
 Data source file: PRSA_Data_Wanshouxigong_20130301-20170228.csv
+
+# Neural network with encoder-decoder
+
+Main topic of this python script is to distuingish normal from anomalous network traffic, to detect any attack or suspicious activities. This goal will be achieved by training neural network with encoder-decoder architecture. Neural network will be trained on test data with normal traffic. Then, when neural network will try to process data from normal traffic, this operation should be succesfull and have relatively small reconstruction error. Contrary to that, data from abnormal traffic should be rcosntructed with high reconstruction error. In this way, it is possible to predict if network traffic is normal or abnormal.
+
+Many ways of network attack
+<img width="202" height="398" alt="{77968EB4-5CD1-4328-A753-7862BAA83966}" src="https://github.com/user-attachments/assets/e9d94063-f1af-4522-bbfa-328be6748639" />
+
+For that purpose neural network with three encoder, and two decoder layers will be used.
+<img width="629" height="796" alt="{664BDB36-5116-4116-B4D9-69654228C644}" src="https://github.com/user-attachments/assets/15a98de4-50c1-4087-85b8-64e2b22d1451" />
+
+Results of predicting abnormal network traffic where satisfying, and can be presented with confusion matrix or ROC curve
+<img width="484" height="263" alt="{625857C9-AB55-477B-A55E-AEC1B50CB99E}" src="https://github.com/user-attachments/assets/9466cd30-f2b9-4a37-adda-13ecda6fbe8c" />
+<img width="691" height="547" alt="image" src="https://github.com/user-attachments/assets/99de0a5a-6c03-4934-b7c5-28c0e318ad62" />
+
+Data source file: https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
