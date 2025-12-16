@@ -16,7 +16,8 @@ LSTM neural network
 Results of predicting
 <img width="1614" height="634" alt="image" src="https://github.com/user-attachments/assets/0b845d36-3352-465a-8cb1-f7145517b776" />
 
-Data source file: PRSA_Data_Wanshouxigong_20130301-20170228.csv
+Data source file: https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data
+Files: PRSA_Data_Wanshouxigong_20130301-20170228.csv
 
 
 # Neural network with encoder-decoder
@@ -37,3 +38,36 @@ Results of predicting abnormal network traffic where satisfying, and can be pres
 <img width="691" height="547" alt="image" src="https://github.com/user-attachments/assets/99de0a5a-6c03-4934-b7c5-28c0e318ad62" />
 
 Data source file: https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
+Files: kddcup.names, kddcup.data_10_percent.gz
+
+# Clasification of mushroom species
+
+The project's goal is to build a classification model that predicts whether a given mushroom is
+edible or poisonous based on its physical and chemical characteristics. The "Mushroom Data"
+set contains only categorical variables, enabling classification analysis using
+various machine learning algorithms. A key aspect will be data processing and
+comparing the performance of several classification models.
+
+Classification models compared in project:
+- Logistic regression
+- Decision tree
+- Random Forest
+- Naive Bayes
+- Gradient Boosting  
+
+Data source file: https://archive.ics.uci.edu/dataset/73/mushroom
+Files: kddcup.names, kddcup.data_10_percent.gz
+
+# Regression models
+
+In this script task is to create, train, and evaluate regression models that predict the daily number of bike rentals based on meteorological, calendar, and seasonal data. The project will utilize the "Bike Sharing Dataset," which contains data from the Capital Bikeshare system in Washington, D.C. The goal is to build a model with the highest possible forecast accuracy and identify the most important features influencing the number of rentals.
+
+Regression models compared in project:
+- Linear Regression
+- Regression with regularization (Ridge, Lasso)
+- Decision tree regressor
+- Random Forest regressor
+- Gradient Boosting regressor
+
+Data source file: https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
+Files: day.csv
