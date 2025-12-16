@@ -4,7 +4,7 @@ My work from studies about programming artificial intelligence on PJATK. This in
 
 # Neural network with time series
 
-Main topic of this python script is to train neural network to predict level of pollution over city, specifaclly amount of PM2.5 (dust in the air). I used for this air quality data from Wanshou district in Beijing, China, measured from March 2013 to February 2017. 
+Main topic of this python script is to train neural network to predict level of pollution over city, specifically amount of PM2.5 (dust in the air). I used for this air quality data from Wanshou district in Beijing, China, measured from March 2013 to February 2017. 
 <img width="1975" height="1063" alt="{AC6B1142-CB41-4F4B-A317-492E6584B311}" src="https://github.com/user-attachments/assets/6e2e7220-4f4b-44f2-98a3-3888f19d515a" />
 
 For that purpose I have prepared time series from initial data, and created small neural network consisting of input, output and three LSTM layers between them. After training, results were quiet satysfying. As we can observe, neural network trained on training data was effective in predicting level of PM2.5 in air.
