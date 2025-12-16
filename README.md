@@ -17,6 +17,7 @@ Results of predicting
 <img width="1614" height="634" alt="image" src="https://github.com/user-attachments/assets/0b845d36-3352-465a-8cb1-f7145517b776" />
 
 Data source file: https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data
+
 Files: PRSA_Data_Wanshouxigong_20130301-20170228.csv
 
 
@@ -56,7 +57,8 @@ Classification models compared in project:
 - Gradient Boosting  
 
 Data source file: https://archive.ics.uci.edu/dataset/73/mushroom
-Files: kddcup.names, kddcup.data_10_percent.gz
+
+Files: agaricus-lepiota.names, agaricus-lepiota.data
 
 # Regression models
 
