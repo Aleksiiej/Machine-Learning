@@ -1,6 +1,6 @@
 ## Machine-Learning
 
-My work from studies about programming artificial intelligence on PJATK. This includes such examples as using varius clasification models and trained neural to solve problems like analysis of supermarket customers for marketing purposes or predicting air pollution levels. Originally scripts were developed in google colab using cloud GPU for training neural networks and stored in google drive.
+Some of my work from studies about programming artificial intelligence on PJATK. This includes such examples as using varius clasification models and trained neural to solve problems like analysis of supermarket customers for marketing purposes or predicting air pollution levels. Originally scripts were developed in google colab using cloud GPU for training neural networks and stored in google drive.
 
 # Neural network with time series
 
