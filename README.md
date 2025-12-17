@@ -59,17 +59,3 @@ Classification models compared in project:
 Data source file: https://archive.ics.uci.edu/dataset/73/mushroom
 
 Files: agaricus-lepiota.names, agaricus-lepiota.data
-
-# Regression models
-
-In this script task is to create, train, and evaluate regression models that predict the daily number of bike rentals based on meteorological, calendar, and seasonal data. The project will utilize the "Bike Sharing Dataset," which contains data from the Capital Bikeshare system in Washington, D.C. The goal is to build a model with the highest possible forecast accuracy and identify the most important features influencing the number of rentals.
-
-Regression models compared in project:
-- Linear Regression
-- Regression with regularization (Ridge, Lasso)
-- Decision tree regressor
-- Random Forest regressor
-- Gradient Boosting regressor
-
-Data source file: https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
-Files: day.csv
